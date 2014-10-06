@@ -431,6 +431,17 @@ img.bordure {
 		font-size: 1.3em;
     }
 
+.box5 {
+    display: inline-block;
+    width: 200px;
+
+    margin-left:0.2em;
+    margin-right:.2em;
+}
+
+.box5:last-child {
+    border:none;
+}
 
 .accordion {
     margin-top:60px;
@@ -502,8 +513,8 @@ img.bordure {
 .title-h2 {
     text-transform: uppercase;
     font-family: 'bilboregular';
-    text-align: center;
     margin-bottom: 20px;
+    font-size: 2.5rem;
 }
 
     .title-h2 span{
@@ -524,8 +535,7 @@ img.bordure {
     }
     
 .title-h3 {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
     font-size:1.2em;
 }
 
@@ -536,6 +546,10 @@ img.bordure {
 .iconbar {
     padding: 5px;
     padding-left: 80px;
+}
+
+.products {
+    border:5px white solid;
 }    
  
 .lel {
@@ -737,3 +751,39 @@ border-radius: 10px;
 		margin-right:2px;
 		background:url(nav.png) no-repeat 0 0;
 	}
+    
+.date {
+    overflow:hidden;
+}
+
+    .date strong {
+        display:inline-block; 
+        background:url(date.png) 0 0 no-repeat; 
+        width:51px; 
+        font-family: 'bilboregular';
+        height:53px; 
+        float:left; 
+        margin-right:5px;
+        font-weight:normal; 
+        color:#000; 
+        font-size:25px; 
+        line-height:48px; 
+        text-align:center;
+        padding-top:5px;
+    }
+        .date span {
+            font-family: 'Lato', sans-serif; 
+            font-weight:300; 
+            font-style:italic; 
+            color:#000; 
+            font-size:15px; 
+            line-height:24px; 
+            display:inline-block; 
+            overflow:hidden; 
+            margin-top:21px;
+        }
+
+.link {
+    color:#FF9000;
+    text-decoration:none;
+}
