@@ -1,0 +1,117 @@
+
+# ----------------------------------------------------------------------
+# Definition variables d'environement
+# ----------------------------------------------------------------------
+
+SetEnvIfNoCase Host "\.lan$"  app_env=local
+SetEnvIfNoCase Host "localhost$"  app_env=local
+SetEnvIfNoCase Host "^dev\." app_env=developpement
+
+
+# ----------------------------------------------------------------------
+# Better website experience for IE users
+# ----------------------------------------------------------------------
+
+# Force the latest IE version, in various cases when it may fall back to IE7 mode
+#  github.com/rails/rails/commit/123eb25#commitcomment-118920
+# Use ChromeFrame if it's installed for a better experience for the poor IE folk
+
+<IfModule mod_headers.c>
+  Header set X-UA-Compatible "IE=Edge,chrome=1"
+  # mod_headers can't match by content-type, but we don't want to send this header on *everything*...
+  <FilesMatch "\.(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+    Header unset X-UA-Compatible
+  </FilesMatch>
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# Start rewrite engine
+# ----------------------------------------------------------------------
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  #RewriteBase /~ipsum/
+</IfModule>
+
+
+# ----------------------------------------------------------------------
+# Suppress or force the "www." at the beginning of URLs
+# ----------------------------------------------------------------------
+
+# The same content should never be available under two different URLs - especially not with and
+# without "www." at the beginning, since this can cause SEO problems (duplicate content).
+# That's why you should choose one of the alternatives and redirect the other one.
+
+# By default option 1 (no "www.") is activated. Remember: Shorter URLs are sexier.
+# no-www.org/faq.php?q=class_b
+
+# If you rather want to use option 2, just comment out all option 1 lines
+# and uncomment option 2.
+# IMPORTANT: NEVER USE BOTH RULES AT THE SAME TIME!
+
+# ----------------------------------------------------------------------
+
+# Option 1:
+# Rewrite "www.example.com -> example.com"
+
+# <IfModule mod_rewrite.c>
+#   RewriteCond %{HTTPS} !=on
+#   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#   RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+# </IfModule>
+
+# ----------------------------------------------------------------------
+
+# Option 2:
+# To rewrite "example.com -> www.example.com" uncomment the following lines.
+# Be aware that the following rule might not be a good idea if you
+# use "real" subdomains for certain parts of your website.
+
+<IfModule mod_rewrite.c>
+   RewriteCond %{HTTPS} !=on
+   RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
+   RewriteCond %{HTTP_HOST} !^localhost$ [NC]
+   RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# ----------------------------------------------------------------------
+# Prevent 404 errors for non-existing redirected folders
+# ----------------------------------------------------------------------
+
+# without -MultiViews, Apache will give a 404 for a rewrite if a folder of the same name does not exist
+#   e.g. /blog/hello : webmasterworld.com/apache/3808792.htm
+
+Options -MultiViews
+
+# ----------------------------------------------------------------------
+# Custom 404 page
+# ----------------------------------------------------------------------
+
+# You can add custom pages to handle 500 or 403 pretty easily, if you like.
+ErrorDocument 404 /404.html
+
+# ----------------------------------------------------------------------
+# Use iso-8859-1 encoding
+# ----------------------------------------------------------------------
+
+# Use iso-8859-15 encoding for anything served text/plain or text/html
+AddDefaultCharset iso-8859-1
+
+DefaultLanguage fr
+
+DirectoryIndex index.html index.htm index.php
+
+# ----------------------------------------------------------------------
+# Récriture des images pour redimention à la volée
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^media\/(.*)_(150x150|300x0|800x800)(_ffffff|_F0F0F0)?.(jpg|gif|png)+$ media/cropper.php?name=$1&extension=$4&format=$2&couleur=$3&dest=$0 [QSA,L]
+</IfModule>
+

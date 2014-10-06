@@ -1,0 +1,80 @@
+.corps
+{
+	height:1300px;
+	background-color:white;
+}
+
+.field
+{
+	border:1px solid #F0F0F0;
+	margin-left:10px;
+	width:1290px;
+	height:555px;
+}
+
+.image
+{
+	float:left;
+	margin-right:20px;
+	margin-top:30px;
+}
+
+.image_last
+{
+	float:left;
+	margin-right:20px;
+	margin-top:30px;
+}
+
+.img
+{
+	border:1px solid #F0F0F0;
+	width:241px;
+	height:481px;
+}
+
+.inter
+{
+	height:100px;
+	background-color:white;
+	background-image:url("grid1.png");
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.text
+{
+	font-size:20px;
+	color:grey;
+	font-style:italic;
+}
+
+.welcome
+{
+	float:left;
+	border:1px solid #F0F0F0;
+	margin-left:80px;
+	margin-top:30px;
+	width:245px;
+	height:465px;
+}
+
+.works
+{
+	float:left;
+	margin-left:30px;
+	margin-top:37px;
+}
+
+.products
+{
+	float:right;
+	margin-right:615px;
+	margin-top:20px;
+}
+
+.flexible
+{
+	margin-top:58px;
+	margin-left:730px;
+}

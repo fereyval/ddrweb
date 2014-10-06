@@ -1,0 +1,106 @@
+.body
+{
+	background-color:black;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+.header
+{
+	height:200px;
+	background-color:white;
+	background-image:url("grid1.png");
+}
+
+.logo
+{
+	float:left;
+	margin-left:8%;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.menu
+{
+	margin-left:30%;
+}
+
+.block1
+{
+	margin-top:3%;
+	margin-right:30px;
+	float:left;
+	font-size:11px;
+}
+
+.hr1
+{
+	border:none;
+	width:140px;
+	height:6px;
+	background-color:red;
+}
+
+.block2
+{
+	margin-top:3%;
+	margin-right:30px;
+	float:left;
+	font-size:11px;
+}
+
+.hr2
+{
+	border:none;
+	width:140px;
+	height:6px;
+	background-color:orange;
+}
+
+.block3
+{
+	margin-top:3%;
+	margin-right:30px;
+	float:left;
+	font-size:11px;
+}
+
+.hr3
+{
+	border:none;
+	width:140px;
+	height:6px;
+	background-color:green;
+}
+
+.block4
+{
+	margin-top:3%;
+	margin-right:30px;
+	float:left;
+	font-size:11px;
+}
+
+.hr4
+{
+	border:none;
+	width:140px;
+	height:6px;
+	background-color:blue;
+}
+
+.block5
+{
+	margin-top:3%;
+	margin-right:30px;
+	float:left;
+	font-size:11px;
+}
+
+.hr5
+{
+	border:none;
+	width:140px;
+	height:6px;
+	background-color:purple;
+}

@@ -1,0 +1,43 @@
+.foot
+{
+	height:270px;
+	background-color:white;
+}
+
+.inter_foot
+{
+	height:180px;
+	background-image:url(grid1.png);
+}
+
+.field_foot
+{
+	border:1px solid #F0F0F0;
+	margin-left:10px;
+	margin-top:10px;
+	width:1290px;
+	height:53px;
+}
+
+.post1
+{
+	float:left;
+	margin-left:150px;
+	margin-top:10px;
+	font-size:10px;
+}
+
+.copyright
+{
+	float:left;
+	margin-top:5px;
+	margin-left:100px;
+	font-size:9px;
+}
+
+.reseau
+{
+	float:right;
+	margin-right:100px;
+	margin-top:15px;
+}

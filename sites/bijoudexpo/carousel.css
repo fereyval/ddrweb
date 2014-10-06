@@ -1,0 +1,90 @@
+﻿#slider
+{
+	float:left;
+	width: 1500px;
+	height: 780px;
+	overflow: hidden;
+	margin-left: 180px;
+}
+
+#slider > ul
+{
+	display: table;
+    -webkit-animation: slideAnim 40s ease 0s infinite;
+	-moz-animation: slideAnim 40s ease 0s infinite;
+    -ms-animation: slideAnim 40s ease 0s infinite;
+    -o-animation: slideAnim 40s ease 0s infinite;
+    animation: slideAnim 40s ease 0s infinite;
+}
+
+#slider > ul li
+{
+	display: table-cell;
+    width:300px;
+}
+
+#slider > ul li img
+{
+    width:1300px;
+	height: 700px;
+    margin-left: 110px;
+    padding-top: 20px;
+}
+
+@-webkit-keyframes slideAnim
+{
+	from, 6%, to {-webkit-transform:translateX(0px);} 
+	8%, 14% {-webkit-transform:translateX(-1460px);}
+	16%, 22% {-webkit-transform:translateX(-2880px);}
+	24%, 30% {-webkit-transform:translateX(-4280px);}
+	32%, 38% {-webkit-transform:translateX(-5700px);}
+	40%, 46% {-webkit-transform:translateX(-7100px);}
+	48%, 54% {-webkit-transform:translateX(-8500px);}
+	56%, 62% {-webkit-transform:translateX(-9920px);}
+	64%, 70% {-webkit-transform:translateX(-11340px);}
+	72%, 78% {-webkit-transform:translateX(-12740px);}
+	80%, 86% {-webkit-transform:translateX(-14140px);}
+	88%, 94% {-webkit-transform:translateX(-15560px);}
+}
+
+.bouton a 
+{
+	float:left;
+	margin-top:20%;
+	margin-left:70px;
+	position:absolute;
+	display:block;
+	background:url(btn/bouton.jpg) no-repeat;
+	line-height:70px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	color:white;
+	text-decoration:none;
+}
+
+.bouton a:hover 
+{
+	background:url(btn/bouton2.jpg) no-repeat;
+}
+
+.bouton2 a 
+{
+	float:right;
+	position:absolute;
+	margin-top:20%;
+	margin-left: 90%;
+	display:block;
+	background:url(btn/bouton3.jpg) no-repeat;
+	line-height:70px;
+	width:150px;
+	text-align:center;
+	vertical-align:middle;
+	color:white;
+	text-decoration:none;
+}
+
+.bouton2 a:hover 
+{
+	background:url(btn/bouton4.jpg) no-repeat;
+}

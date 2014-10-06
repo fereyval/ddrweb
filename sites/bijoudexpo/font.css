@@ -1,0 +1,183 @@
+header
+{ 
+	background-color: #000; 
+	height: 60px; 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	z-index: 999;
+}
+	
+.titre
+{
+	margin-left: 2%;
+	float:left;
+}
+
+.icone
+{ 
+	float: right; 
+	margin-right: 50px; 
+}
+
+.barre
+{
+	height:40px;
+	background-color:#E9383F;
+	margin-top: 17px;
+}
+
+.text
+{
+	font-size: 120%;
+	color: white;
+	margin-left : 40%
+}
+
+
+
+.slides-wrapper
+{
+	height: 100%; 
+	display: block; 
+	padding: 0;
+}
+
+.slide
+{
+	height: 100%; 
+	width: 100%; 
+	position: relative; 
+}
+
+.slide .slide-content
+{ 
+	display: table; 
+	vertical-align: middle; 
+	height: 100%;
+}
+
+.slide .slide-content .slide-text .content-text
+{ 
+	max-width: 350px; 
+}
+
+.slide .next-slide
+{ 
+	position: absolute; 
+	bottom: 65px; 
+	left: 0; 
+	right:0;  
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 70px; 
+	height: 70px; 
+}
+
+.slide .next-slide a
+{ 
+	display: block; 
+	width: 100%; 
+	height: 100%; 
+	background:0 0 no-repeat; 
+	text-decoration: none;
+	border-radius: 35px;
+}
+
+.slide .next-slide a:hover
+{ 
+	background: 0 0 no-repeat; 
+}
+					
+.onepage-pagination
+{ 
+	position: fixed; 
+	right: 0; 
+	top: 100px; 
+	background-color: rgba(233,56,63,1); 
+	z-index: 999; 
+	list-style: none; 
+	padding: 10px; 
+}
+
+.onepage-pagination a
+{ 
+	display: block; 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 12px; 
+	border: 2px solid #FFFFFF; 
+	margin-bottom: 10px;
+}
+
+.onepage-pagination a:hover, .onepage-pagination a.active
+{ 
+	background-color: #FFFFFF;
+}
+
+.onepage-pagination li:last-child a
+{
+	margin-bottom: 0px; 
+}
+		
+footer
+{ 
+	background-color: #000; 
+	height: 90px; 
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	width: 100%; 
+	z-index: 999;
+}
+
+.hr1
+{
+	border:none;
+	background-color:orange;
+	margin: auto;
+}
+
+.part
+{
+	margin-left: 1%;
+	float:left;
+	margin-top:10px
+}
+
+.part2
+{ 
+	float: right; 
+	margin-right: 10px;
+	margin-top:10px
+}
+
+.firstP
+{
+	margin-top:80px;
+	color: white;
+	display: block;
+	text-align:center;
+	font-size: 170%
+}
+.secondP
+{
+	color: white;
+	display: block;
+	text-align:center;
+	font-size: 200%
+}
+
+.acces
+{
+	float: right;
+	margin-left: 90px;
+	margin-top:110px;
+	text-align: center;
+}
+
+.h1
+{
+	color: white;
+}
