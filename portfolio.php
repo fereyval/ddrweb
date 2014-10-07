@@ -33,48 +33,36 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
 include("include/entete.php");
 ?>
 
-<div role="main" class="texte plm">
-	<div class="conteneur center pam">
-        <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
-            <p class="mini-menup">Portfolio</p>
-            <ul class="mini-menu">
-                <li><a href="#bvn">Mes projets</a></li>
-                <li><a href="#for">Formulaire et mentions légales</a></li>
-            </ul>
-        </div>
-        <div class="sociaux">
-            <ul class="sociaux-liste">
-                <li><a href="https://www.facebook.com/fereyva"><img src="composants/facebook.png" alt="Facebook"></a></li>
-				<li><a href="https://twitter.com/Firely23"><img src="composants/twitter.png" alt="Twitter"></a></li>
-				<li><a href="https://github.com/firely23"><img src="composants/linkedin.png" alt="Linkedin"></a></li>
-				</ul>
-        </div>
-    </div>
+<div role="main" class="texte" style="z-index:1; position: relative;">
+	<div class="slideshow">
+         <div class="slideshow_cadre">
+                <div id="slide" class="slide" >
+					<img src="composants/slider-1.jpg"  width="1080" height="478"  style="z-index:-1"/> 
+                </div>
+         </div>
+	</div><!-- Fin slide //-->
 </div>
 
-<div role="main" class="textportfolio plm ptm">
-	<div class="conteneur center plm">
-		<div class="carrousel">
-			<ul class="lel" style="padding-left: 0px;">
-				<li style="text-decoration:none; list-style-type:none;">
-					<div class="diapo">
-						<div class="box2">
-							<img src="composants/diapo1.jpg" alt="" class="diapo-img" id="bvn">
-						</div>
-						<div class="box3">
-							<h3>Ceci est mon portfolio!</h3>
-							<p>Vous découvrirez ici tout les projets que j'ai pu réaliser ou ceux auquels j'ai contribué, ainsi qu'une brêve description de leurs fonctionnalitées. Ils y a des projets dans plusieurs langages comme les languages du web, le C, le C++ et des maquettes graphiques en photoshop / firework.</p>
-                         </div>
-					</div>
-				</li>
-            </ul>
+<div role="main" class="texte2 pam" style="z-index:99; position: relative;">
+	<div class="conteneur center pam" style="border: 1px solid white;">
+		<div class="box">
+            <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>D</span>eveloppement</p>
+		</div>
+		<div class="box">
+            <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
+            <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
+        </div>
+		<div class="box">
+            <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>R</span>eferencement</p>
         </div>
 	</div>
-</div>    
+</div>
 
 <div role="main" class="texte2portfolio pam">
 	<div class="conteneur center">
-        <h3 class="title-h3">- <span>Filtrer</span> nos projets -</h3>
+        <h3 class="title-h3 txtcenter">- <span>Filtrer</span> nos projets -</h3><br><br>
         <ul id="portfolio-filter" class="txtcenter">
 			<li><a href="#all" title="">Tous</a></li>
 			<li><a href="#web" title="" rel="design">Html / css / php / js</a></li>
@@ -85,7 +73,6 @@ include("include/entete.php");
 		</ul>
     </div>
 </div>
-
 
 <div role="main" class="texte3portfolio pam">
 	<div class="conteneur center" id="slides">
@@ -230,25 +217,6 @@ include("include/entete.php");
                 </div>
             </li>  
         </ul>
-    </div>
-</div>
-
-<div role="main" class="texte4 pam">
-	<div class="conteneur center">
-        <div class="conteneur center pam" style="border: 1px solid white;">
-            <div class="box">
-                <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
-                <p class="title-p"><span>D</span>eveloppement</p>
-            </div>
-            <div class="box">
-                <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
-                <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
-            </div>
-            <div class="box">
-                <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
-                <p class="title-p"><span>R</span>eferencement</p>
-            </div>
-        </div>
     </div>
 </div>
 

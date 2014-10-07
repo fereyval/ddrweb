@@ -33,51 +33,42 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
 include("include/entete.php");
 ?>
 
-<div role="main" class="texte plm">
-	<div class="conteneur center pam">
-        <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
-            <p class="mini-menup">Compétences</p>
-            <ul class="mini-menu">
-                <li><a href="#bvn">Mes compétences</a></li>
-				<li><a href="#cv">Mon Curriculum vitae</a></li>
-                <li><a href="#for">Formulaire et mentions légales</a></li>
-            </ul>
-        </div>
-        <div class="sociaux">
-            <ul class="sociaux-liste">
-                <li><a href="https://www.facebook.com/fereyva"><img src="composants/facebook.png" alt="Facebook"></a></li>
-				<li><a href="https://twitter.com/Firely23"><img src="composants/twitter.png" alt="Twitter"></a></li>
-				<li><a href="https://github.com/firely23"><img src="composants/linkedin.png" alt="Linkedin"></a></li>
-			</ul>
-        </div>
-    </div>
+<div role="main" class="texte" style="z-index:1; position: relative;">
+	<div class="slideshow">
+         <div class="slideshow_cadre">
+                <div id="slide" class="slide" >
+					<img src="composants/slider-1.jpg"  width="1080" height="478"  style="z-index:-1"/> 
+                </div>
+         </div>
+	</div><!-- Fin slide //-->
 </div>
 
-<div role="main" class="textportfolio plm ptm">
-	<div class="conteneur center plm">
-		<div class="carrousel">
-			<ul class="lel" style="padding-left: 0px;">
-				<li style="text-decoration:none; list-style-type:none;">
-					<div class="diapo">
-						<div class="box2">
-							<img src="composants/diapo6.png" alt="" class="diapo-img" id="bvn" style="width:150px;">
-						</div>
-						<div class="box3">
-							<h3>Mes compétences dans les languages informatiques.</h3>
-							<p>Ici vous découvrirez mes différentes compétences en informatique. Il s'agit bien sur des différents languages mais aussi de certains logiciels utiles à la création d'un site internet. Une compétence avec 3 étoiles ou plus équivaut à une compétence plus ou moins bien maitrisée. J'ai également joins mon <a style="text-decoration:none;color:black;font-size:1.1em;font-weight:bold;" href="#cv">Curriculum Vittae</a> pour plus de renseignement.</p>
-                         </div>
-					</div>
-				</li>
-            </ul>
+<div role="main" class="texte2 pam" style="z-index:99; position: relative;">
+	<div class="conteneur center pam" style="border: 1px solid white;">
+		<div class="box">
+            <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>D</span>eveloppement</p>
+		</div>
+		<div class="box">
+            <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
+            <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
+        </div>
+		<div class="box">
+            <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>R</span>eferencement</p>
         </div>
 	</div>
-</div>    
+</div>
+
+<!--<h3>Mes compétences dans les languages informatiques.</h3>
+							<p>Ici vous découvrirez mes différentes compétences en informatique. Il s'agit bien sur des différents languages mais aussi de certains logiciels utiles à la création d'un site internet. Une compétence avec 3 étoiles ou plus équivaut à une compétence plus ou moins bien maitrisée. J'ai également joins mon <a style="text-decoration:none;color:black;font-size:1.1em;font-weight:bold;" href="#cv">Curriculum Vittae</a> pour plus de renseignement.</p>
+                         </div>-->
 
 <div role="main" class="texte3 pam">
 	<div class="conteneur center">
         <div class="row pts">
-            <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;"><span>I</span>ntégration</h2>
+            <div class="caracteristiques col w50 pam txt" >
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;"><span>I</span>ntégration</h2>
                 <ul>
                     <li><img src="styles/logos/1.png" alt="logo" style="margin:10px;" />HTML 5
                         <span class="etoile mtl">
@@ -101,7 +92,7 @@ include("include/entete.php");
             </div>
             
             <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;"><span>D</span>éveloppement</h2>
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;"><span>D</span>éveloppement</h2>
                 <ul>
                     <li><img src="styles/logos/3.png" alt="logo" style="margin:10px;"/>Javascript
                         <span class="etoile mtl">
@@ -135,7 +126,7 @@ include("include/entete.php");
         </div>
         <div class="row pts">
             <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;"><span>D</span>esign</h2>
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;"><span>D</span>esign</h2>
                 <ul>
                     <li><img src="styles/logos/6.png" alt="logo" style="margin:10px;"/>Photoshop
                         <span class="etoile mtl">
@@ -167,7 +158,7 @@ include("include/entete.php");
                 </ul>
             </div>      
             <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;"><span>A</span>utres languages</h2>
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;"><span>A</span>utres languages</h2>
                 <ul>
                     <li><img src="styles/logos/9.png" alt="logo" style="margin:10px;"/>C
                         <span class="etoile mtl">
@@ -201,7 +192,7 @@ include("include/entete.php");
         </div>
         <div class="row pts">
             <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;" id="cv"><span>C</span>ms</h2>
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;" id="cv"><span>C</span>ms</h2>
                 <ul>
                     <li><img src="styles/logos/12.png" alt="logo" style="margin:10px;"/>Wordpress
                         <span class="etoile mtl">
@@ -225,7 +216,7 @@ include("include/entete.php");
             </div>
             
             <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;"><span>F</span>rameworks</h2>
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;"><span>F</span>rameworks</h2>
                 <ul>
                     <li><img src="styles/logos/14.png" alt="logo" style="margin:10px;"/>JQuery
                         <span class="etoile mtl">
@@ -251,7 +242,7 @@ include("include/entete.php");
         
         <div class="row pts">
             <div class="caracteristiques col w50 pam" >
-                <h2 class="title-h3" style="font-size:1.8em;"><span>A</span>utres compétences</h2>
+                <h2 class="title-h3 txtcenter" style="font-size:1.8em;"><span>A</span>utres compétences</h2>
                 <ul>
                     <li><img src="styles/logos/16.png" alt="logo" style="margin:10px;"/>Unix
                         <span class="etoile mtl">
@@ -288,28 +279,9 @@ include("include/entete.php");
 
 <div role="main" class="textcomp pam">
 	<div class="conteneur center">
-        <p class="title-h3">Mon CV téléchargeable :</p>
+        <p class="title-h3 txtcenter">Mon CV téléchargeable :</p>
      <p class="txtcenter mbm mrs center  pts"><a style="color:black" class="bouton3" href="http://ge.tt/api/1/files/7k6psUz1/0/blob?download"><img src="styles/pdf.png" />Télécharger</a></p>
     </div>
-</div>
-
-<div role="main" class="texte4 pam">
-	<div class="conteneur center">
-		<div class="conteneur center pam" style="border: 1px solid white;">
-            <div class="box">
-                <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
-                <p class="title-p"><span>D</span>eveloppement</p>
-            </div>
-            <div class="box">
-                <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
-                <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
-            </div>
-            <div class="box">
-                <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
-                <p class="title-p"><span>R</span>eferencement</p>
-            </div>
-        </div>
-	</div>
 </div>
 
 <div role="main" class="texte6 pam">
