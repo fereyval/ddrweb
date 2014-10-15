@@ -141,6 +141,7 @@ header>div {width:100%; background:url(header-bg-shadow.png) 0 bottom repeat-x; 
 	background-repeat: repeat-x, repeat;
     box-shadow: 7px 6px 2px #5f5f5f;
 	box-shadow: -7px 6px 15px #5f5f5f;
+    overflow: hidden;
 }
 
 .texte5 {
@@ -859,3 +860,16 @@ border-radius: 10px;
 	position:relative;
 	top:1px;
 }
+
+.social-barre {
+    position: fixed;
+    z-index:99999;
+    top: 40%;
+    left: 0;
+    border: 1px solid #6794d2;
+    border-left: none;
+}
+    .social-barre ul {
+        padding: 0;
+        list-style-type: none;
+    }

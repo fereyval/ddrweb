@@ -30,7 +30,14 @@
 	</div>
 	<p class="txtcenter right"><a style="color:#2ba9d9;" class="boutonfoot2" href="contact.php">CONTACT</a></p>
 </footer>
-    </div><!-- Fin conteneur //-->
+<div class="social-barre">
+        <ul>
+            <li><a href="https://www.facebook.com"><img src="composants/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com"><img src="composants/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.github.com/firely23"><img src="composants/linkedin.png" alt="Google +"></a></li>
+        </ul>
+</div>
+
     <script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
 	<script src="javascripts/filterable.pack.js" type="text/javascript" charset="utf-8"></script>
     <script src="javascripts/jquery.b1njAccordion.js"></script>

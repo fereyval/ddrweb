@@ -77,28 +77,26 @@ include("include/entete.php");
 	<div class="conteneur center">
 		<div class="row pts pll">
 			<div class="col w50 ptm prm">
-				<img src="styles/pourquoi.png" class="left">
+				<img src="styles/pourquoi.png" class="left" style="margin-top: 20px; margin-bottom: 0px;">
 				<h2 class="title-h2"><img><span>Pourquoi</span> DDR Web?<img></h2>
                 <div class=" plm">
-					
 					<p>
                     DDR Web c'est l'abréviation des mots Développement / Design / Référencement qui correspondent aux phases même de la création d'un site web.
                     </p>
-                    <p>
+                    <p style="margin-top: 0px;">
                     Cette sociétée propose différents services en rapport avec la conception de sites internet, que ce soit un simple blog wordpress, un site personnel ou même un E-commerce (simplifié). La chartre graphique, l'intégration et le développement de chaque sites web sont fait par moi. Pour plus d'informations sur les services que je propose, cliquez sur le bouton ci-dessous.
                     </p>
                 </div>
 				 <p class="txtcenter mbm left mll mtl"><img src="styles/button3.png"><a style="color:#2ba9d9;" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 			<div class="col w50 ptm">
-			<img src="styles/qui.png" class="left">
+			<img src="styles/qui.png" class="left" style="margin-top: 20px; margin-bottom: 0px;">
 				<h2 class="title-h2"><img><span>Qui</span> suis-je?<img></h2>
-                <div class="plm">
-				
+                <div class="plm">	
                     <p>
                     Je suis un étudiant de 2ème année à Epitech lyon, une école d'informatique qui propose un cursus d'expert en 5 ans durant lequel vous serez confronté à faire environ 1 an et demi de stage en entreprise.
                     </p>
-                    <p >
+                    <p style="margin-top: 0px;">
                     Je code depuis près de 3 ans et ai appris les bases du Web grâce à l'association Epiweb Lyon et me suis formé durant un stage de 4 mois chez Pixellweb une entreprise également basée sur la conception de sites internet aux Antilles. Pour en savoir plus sur mes compétences, cliquez sur le lien ci-dessous.
                     </p>
                 </div>
@@ -131,7 +129,7 @@ include("include/entete.php");
 			
 		</div>
 		<div class="plm mts">
-			<h2 class="title-h2 txtcenter" id="rea"><span>Mes dernières</span> réalisations</h2>
+			<h2 class="pls title-h2 txtcenter" id="rea"><span>Mes dernières</span> réalisations</h2>
 			<div id="carousel">
 			<div class="carousel-feature">
 				<a href="sites/bijoudexpo/index.html"><img class="carousel-image" alt="Image Caption" src="styles/last/bijoudexpo.jpg"></a>
