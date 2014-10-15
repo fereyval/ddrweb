@@ -83,7 +83,7 @@ header>div {width:100%; background:url(header-bg-shadow.png) 0 bottom repeat-x; 
 			min-height: 90px;
 		}
 		.menu li.lien_actif {
-			color:#ff9000;
+			color: #2ba9d9;
 			min-height: 90px;
             padding-top:0px;
 		}				
@@ -97,7 +97,7 @@ header>div {width:100%; background:url(header-bg-shadow.png) 0 bottom repeat-x; 
 			}
 			
 			.menu a.lien_actif {
-				color:#ff9000;	
+				color:#2ba9d9;
 				padding-right:40px;
 				padding-left:40px;
 			}	
@@ -156,7 +156,11 @@ header>div {width:100%; background:url(header-bg-shadow.png) 0 bottom repeat-x; 
 
 /*---- Pied de page -------*/
 .footer {
-	color: #00B2D2;
+	position: relative;
+	background: url(header-bg.jpg) 0 0 repeat;
+	max-height: 170px;
+	width: 100%;
+	color: white;
 }
 	.footer p img {
 		vertical-align: middle;
@@ -332,7 +336,7 @@ img.bordure {
 .bouton1 {
     padding: 1em 0.4em;
     text-decoration: none;
-    color: #FF9000;
+    color: #2ba9d9;
     font-size: 1.6em;
 	font-family:'bilboregular';
 }
@@ -427,14 +431,26 @@ img.bordure {
 
 .box5 {
     display: inline-block;
-    width: 200px;
-
+    width: 300px;
     margin-left:0.2em;
     margin-right:.2em;
+	text-align: center;
 }
 
 .box5:last-child {
     border:none;
+}
+
+.box6 {
+    display: inline-block;
+    width: 210px;
+    margin-left:0.2em;
+    margin-right:.2em;
+	text-align:left;
+}
+
+.box6:last-child {
+	background: url(separation.png) 205px 25px no-repeat
 }
 
 .accordion {
@@ -461,6 +477,28 @@ img.bordure {
     font-size: 2em;
     padding-left: 150px;
   }
+  
+.boutonfoot {
+    padding: 0px 68px;
+    text-decoration: none;
+    color: #2ba9d9;
+    font-size: 1.6em;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	background: url(button3.png) 10px -5px no-repeat;
+}
+
+.boutonfoot2 {
+    padding: 0px 68px;
+    text-decoration: none;
+    color: #2ba9d9;
+    font-size: 1.6em;
+	position: absolute;
+	top: 60px;
+	right: 1px;
+	background: url(button4.png) 10px -5px no-repeat;
+}
 
 .fuck {
     width:800px;
@@ -512,7 +550,7 @@ img.bordure {
 }
 
     .title-h2 span{
-        color: #ff9000;
+        color: #2ba9d9;
     }
     
 .title-p {
@@ -525,7 +563,7 @@ img.bordure {
 
     .title-p span{
 	font-size:1.5em;
-    color: #ff9000;
+    color: #2ba9d9;
     }
     
 .title-h3 {
@@ -533,7 +571,7 @@ img.bordure {
 }
 
     .title-h3 span{
-    color: #ff9000;
+    color: #2ba9d9;
     }    
     
 .iconbar {
@@ -755,7 +793,7 @@ border-radius: 10px;
         width:51px; 
         font-family: 'bilboregular';
         height:53px; 
-        float:left; 
+        float:center; 
         margin-right:5px;
         font-weight:normal; 
         color:#000; 
@@ -768,7 +806,7 @@ border-radius: 10px;
             font-family: 'Lato', sans-serif; 
             font-weight:300; 
             font-style:italic; 
-            color:#000; 
+            color:#FFF; 
             font-size:15px; 
             line-height:24px; 
             display:inline-block; 
@@ -777,7 +815,7 @@ border-radius: 10px;
         }
 
 .link {
-    color:#FF9000;
+    color:#2ba9d9;
     text-decoration:none;
 }
 

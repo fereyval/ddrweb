@@ -88,7 +88,7 @@ include("include/entete.php");
                     Cette sociétée propose différents services en rapport avec la conception de sites internet, que ce soit un simple blog wordpress, un site personnel ou même un E-commerce (simplifié). La chartre graphique, l'intégration et le développement de chaque sites web sont fait par moi. Pour plus d'informations sur les services que je propose, cliquez sur le bouton ci-dessous.
                     </p>
                 </div>
-				 <p class="txtcenter mbm left mll mtl"><img src="styles/button3.png"><a style="color:#FF9000" class="bouton1" href="#">Lire la suite</a></p>
+				 <p class="txtcenter mbm left mll mtl"><img src="styles/button3.png"><a style="color:#2ba9d9;" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 			<div class="col w50 ptm">
 			<img src="styles/qui.png" class="left">
@@ -102,49 +102,35 @@ include("include/entete.php");
                     Je code depuis près de 3 ans et ai appris les bases du Web grâce à l'association Epiweb Lyon et me suis formé durant un stage de 4 mois chez Pixellweb une entreprise également basée sur la conception de sites internet aux Antilles. Pour en savoir plus sur mes compétences, cliquez sur le lien ci-dessous.
                     </p>
                 </div>
-				<p class="txtcenter mbm left mll mtl"><img src="styles/button3.png"><a style="color:#FF9000" class="bouton1" href="#">Lire la suite</a></p>
+				<p class="txtcenter mbm left mll mtl"><img src="styles/button3.png"><a style="color:#2ba9d9;" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 		</div>
-        <div class="row pts pll">
-			<div class="col w70 pam">
-                <h2 class="title-h2"><span>Nos</span> Services</h2>
-                <div class="box5">
-                    <img src="composants/img1.jpg" alt="developpement" class="products"/>
-                        <div class="left w90">
-                        <h3 class="title-h3"><span>Formule Simple</span></h3>
-                    <p style="margin-top: 0px;">La formule basique à petits prix et très rapide!</p>
-                    </div>
-                </div>
-                <div class="box5">
-                    <img src="composants/img2.jpg" alt="developpement" class="products"/>
-                    <div class="left w90">
-                        <h3 class="title-h3"><span>Formule Premium</span></h3>
-                        <p style="margin-top: 0px;">La formule all inclusive, pour créer un site à votre image dans un délais imposé.</p>
-                    </div>
-                </div>
-                <div class="box5">
-                    <img src="composants/img3.jpg" alt="developpement" class="products"/>
-                    <div class="left w90">
-                        <h3 class="title-h3"><span>Abonnement DDRWeb</span></h3>
-                        <p style="margin-top: 0px;">Un abonnement au mois qui permet un suivi et un entretien continu de votre site</p>
-                    </div>
-                </div>
-                <p class="txtcenter mbm left mls mtl ptl"><img src="styles/button3.png"><a style="color:#FF9000" class="bouton1" href="#">Lire la suite</a></p>
-            </div>
-			<div class="col w30 ptm prm">
-                <h2 class="title-h2"><span>B</span>log</h2>
-                <div class="mts">
-                    <div class="date"><strong>05</strong><span>October, 2014</span></div>
-                    <p><a href="#" class="link">Lorem ipsum dolor sit amet consetetur</a><br>Sadipscing elitriam nonumy eirmod nonumy eirmod tempor invidunt labore.</p>
-                </div>
-                <div class="mts">
-                    <div class="date"><strong>06</strong><span>October, 2014</span></div>
-                    <p><a href="#" class="link">Lorem ipsum dolor sit amet consetetur</a><br>Sadipscing elitriam nonumy eirmod nonumy eirmod tempor invidunt labore.</p>
-                </div>
-                <p class="txtcenter mbm left mls mtl"><img src="styles/button3.png"><a style="color:#FF9000" class="bouton1" href="#">Lire la suite</a></p>
-            </div>
-        </div>
-		<div class="mts">
+		<div class="pll ptm pbm">
+			<h2 class="title-h2 txtcenter"><span>Nos</span> Services</h2>
+			<div class="box5">
+				<img src="composants/img1.jpg" alt="developpement" class="products"/>
+					<div class="left w90">
+					<h3 class="title-h3"><span>Formule Simple</span></h3>
+				<p style="margin-top: 0px;">La formule basique à petits prix et très rapide!</p>
+				</div>
+			</div>
+			<div class="box5">
+				<img src="composants/img2.jpg" alt="developpement" class="products"/>
+				<div class="left w90">
+					<h3 class="title-h3"><span>Formule Premium</span></h3>
+					<p style="margin-top: 0px;">La formule all inclusive, pour créer un site à votre image dans un délais imposé.</p>
+				</div>
+			</div>
+			<div class="box5">
+				<img src="composants/img3.jpg" alt="developpement" class="products"/>
+				<div class="left w90">
+					<h3 class="title-h3"><span>Abonnement DDRWeb</span></h3>
+					<p style="margin-top: 0px;">Un abonnement au mois qui permet un suivi et un entretien continu de votre site</p>
+				</div>
+			</div>
+			
+		</div>
+		<div class="plm mts">
 			<h2 class="title-h2 txtcenter" id="rea"><span>Mes dernières</span> réalisations</h2>
 			<div id="carousel">
 			<div class="carousel-feature">
@@ -170,6 +156,7 @@ include("include/entete.php");
 			</div>
             <!--<p class="txtcenter mbm left mll pll mtl"><img src="styles/button3.png"><a style="color:#FF9000" class="bouton1" href="#">Lire la suite</a></p>-->
 		</div>
+		
 	</div>	
 </div>
 

@@ -73,26 +73,9 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
         </script>';
 include("include/entete.php");
 ?>
-<div role="main" class="texte plm">
-	<div class="conteneur center pam">
-        <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
-            <p class="mini-menup">Contact</p>
-            <ul class="mini-menu">
-                <li><a href="#bvn">Coordonnées</a></li>
-                <li><a href="#map">Géolocalisation</a></li>
-                <li><a href="#for">Envoyer un message</a></li>
-            </ul>
-        </div>
-        <div class="sociaux">
-            <ul class="sociaux-liste">
-				<li><a href="https://www.facebook.com/fereyva"><img src="composants/facebook.png" alt="Facebook"></a></li>
-				<li><a href="https://twitter.com/Firely23"><img src="composants/twitter.png" alt="Twitter"></a></li>
-				<li><a href="https://github.com/firely23"><img src="composants/linkedin.png" alt="Linkedin"></a></li></ul>
-        </div>
-    </div>
-</div>
 
-<div role="main" class="texte2 plm ptm">
+
+<div role="main" class="texte plm ptm">
 	<div class="conteneur center plm">
 		<div class="row pts">
 			<div class="caracteristiques col w70 pam" >
@@ -152,7 +135,24 @@ include("include/entete.php");
 	</div>
 </div>
 
-<div role="main" class="texte3 pam">
+<div role="main" class="texte2 pam" style="z-index:99; position: relative;">
+	<div class="conteneur center pam" style="border: 1px solid white;">
+		<div class="box">
+            <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>D</span>eveloppement</p>
+		</div>
+		<div class="box">
+            <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
+            <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
+        </div>
+		<div class="box">
+            <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>R</span>eferencement</p>
+        </div>
+	</div>
+</div>
+
+<div role="main" class="texte2portfolio pam">
 	<div class="conteneur center">
 		<div class="mll">
 			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2779.4914838197215!2d5.027704399999999!3d45.8414621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4b9ba9b8f37af%3A0xa6d368918897b3a9!2s53+Rue+de+Pr%C3%A9+Mayeux%2C+01120+La+Boisse%2C+France!5e0!3m2!1sfr!2s!4v1411669244727" width="960" height="500" frameborder="0" style="border:0"></iframe>
@@ -160,26 +160,7 @@ include("include/entete.php");
 	</div>
 </div>
 
-<div role="main" class="texte4 pam">
-	<div class="conteneur center">
-		<div class="conteneur center pam" style="border: 1px solid white;">
-            <div class="box">
-                <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
-                <p class="title-p"><span>D</span>eveloppement</p>
-            </div>
-            <div class="box">
-                <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
-                <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
-            </div>
-            <div class="box">
-                <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
-                <p class="title-p"><span>R</span>eferencement</p>
-            </div>
-        </div>
-	</div>
-</div>
-
-<div role="main" class="texte6 pam">
+<div role="main" class="texte6 pam ptl">
 	<div class="conteneur center">
 		<div class="accordion" id="for">
             <img src="styles/button.png" class="pad2"/>
