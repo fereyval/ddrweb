@@ -135,7 +135,7 @@ include("include/entete.php");
 	</div>
 </div>
 
-<div role="main" class="texte2 pam" style="z-index:99; position: relative;">
+<div role="main" class="texte2 pam">
 	<div class="conteneur center pam" style="border: 1px solid white;">
 		<div class="box">
             <img src="composants/icondev.png" alt="developpement" class="iconbar"/>

@@ -43,7 +43,7 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
         </script>';
 ?>
 </head>
-<body style="background-color:#FF9000">
+<body style="background-color:#2ba9d9;">
 <div class="conteneur center pam" style="background-color:white; min-height:1080px;">
     <img src="composants/logo.png" style="min-height:100px;" class="left">
     <h1 class="right">FORMULAIRE</h1><br><br><br><br><br><br>

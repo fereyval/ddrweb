@@ -14,9 +14,6 @@
 	<script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
 	<link rel="icon" type="jpg" href="composants/favicon.png">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <?php echo $head; ?>
     <title><?php echo $title.' - '.NOM_SITE; ?></title>
 </head>
@@ -35,4 +32,3 @@
 			</ul>
 		</nav><!-- Fin menu //-->
     </header><!-- Fin header //-->
-    <!--[if lte IE 7]><div class="messages warning""><p>Nous avons détecté que vous utilisez IE7 (ou une version antérieure).<br/>Ce site ne s'affichera pas correctement car cette version est dépassée. Pour une meilleure utilisation du site, nous vous recommandons fortement d'utiliser un des navigateurs suivants  :<br /><a href="http://www.microsoft.com/windows/products/winfamily/ie/default.mspx">Internet Explorer</a> <a href="http://www.apple.com/safari/">Safari</a> <a href="http://www.google.com/chrome/">Google Chrome</a> <a href="http://www.mozilla.com/firefox/">Firefox</a> <a href="http://www.opera.com/download/">Opera</a></p></div> <![endif]-->

@@ -1,6 +1,6 @@
-/* ----------------------------- */
-/* == General - Ipsum- Pixell    */
-/* ----------------------------- */
+/* --------------------*/
+/* == General - Ipsum  */
+/* --------------------*/
 
 @font-face {
     font-family: 'bilboregular';
@@ -36,29 +36,26 @@ body {
 	}
 
 /*---- Bandeau -------*/
-.header {
-	position: relative;
-	background: url(header-bg.jpg) 0 0 no-repeat;
+
+header { 
+	width:100%; 
+	background:url(header-bg.jpg) 0 0 repeat; 
+	border-bottom:#fff 1px solid;
 	max-height: 90px;
-	width:auto;
 }
 
-header{ width:100%; background:url(header-bg.jpg) 0 0 repeat; border-bottom:#fff 1px solid;max-height: 90px;}
-header>div {width:100%; background:url(header-bg-shadow.png) 0 bottom repeat-x; padding-bottom:17px;}
+header>div {
+	width:100%; 
+	background:url(header-bg-shadow.png) 0 bottom repeat-x; 
+	padding-bottom:17px;
+}
 
-	/*.header-slogan {
-		position: absolute;
-		top: 10px;
-		right: 20px;
-		font-size: 2em;
-		color: white;
-	}*/
-	.header-logo {
-        position:relative;
-        float:left;
-        top:10px;
-        left:70px;
-	}
+.header-logo {
+	position:relative;
+	float:left;
+	top:10px;
+	left:70px;
+}
 
 /*---- Menu -------*/
 .menu {
@@ -134,6 +131,9 @@ header>div {width:100%; background:url(header-bg-shadow.png) 0 bottom repeat-x; 
 }
 
 .texte2 {
+	width: 99.7%;
+	z-index:99;
+	transform-origin: 0 0;
 	min-height: 170px;
 	transform: rotate(-1deg);
 	background: ##6b6e6d;
