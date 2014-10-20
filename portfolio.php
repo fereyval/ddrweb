@@ -79,7 +79,7 @@ include("include/entete.php");
         <ul id="portfolio-list" class="txtcenter" style=" margin-left:60px;">
             <li style="display: block;" class="web">
                 <div style="width:164px;height:121px;" class="slide-left" >
-                <a href="sites/bijoudexpo/index.html" style="text-decoration:none"><p><b>Un bijou d'expo:</b><br><br> Ce site à été fait dans le cadre d'une recherche de stage. Il présente une exposition de bijou ayant eu lieu à Reims le 18/06/14.</p>
+                <a href="http://unbijoudexpo.16mb.com/" style="text-decoration:none"><p><b>Un bijou d'expo:</b><br><br> Ce site à été fait dans le cadre d'une recherche de stage. Il présente une exposition de bijou ayant eu lieu à Reims le 18/06/14.</p>
                 <img style="border:1px black solid;" src="composants/portfolio/portfolio1.jpg" alt=""></a>
                 </div>
             </li>

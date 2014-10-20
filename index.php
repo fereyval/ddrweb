@@ -132,7 +132,7 @@ include("include/entete.php");
 			<h2 class="pls title-h2 txtcenter" id="rea"><span>Mes dernières</span> réalisations</h2>
 			<div id="carousel">
 			<div class="carousel-feature">
-				<a href="sites/bijoudexpo/index.html"><img class="carousel-image" alt="Image Caption" src="styles/last/bijoudexpo.jpg"></a>
+				<a href="http://unbijoudexpo.16mb.com/"><img class="carousel-image" alt="Image Caption" src="styles/last/bijoudexpo.jpg"></a>
 				
 			</div>
 			<div class="carousel-feature">
