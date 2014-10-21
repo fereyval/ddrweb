@@ -13,7 +13,16 @@
 <body>
 <header role="banner" class="header line pam">
     <div class="conteneur center" style="background:transparent !important;">
-        <p class="titre-principal">WELCOME ON<br> MY BLOG</p>
+        <div class="titre-principal">
+            <h1>WELCOME ON<br> MY BLOG</h1>
+            <p>This Awesome Blogger Template is Brought To You By Bthemez, Let's be friends<br> and spread the love together in the world. #nohomo :P<br>Join us on</p>
+            <ul>
+                <li><a href="https://www.facebook.com"><img src="composants/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com"><img src="composants/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.github.com/firely23"><img src="composants/linkedin.png" alt="github"></a></li>
+                <li><a href="https://www.github.com/firely23"><img src="composants/google.png" alt="Google +"></a></li>
+            </ul>
+        </div>
     </div>
 </header><!-- Fin header //-->
 <nav role="navigation" class="menu">
@@ -30,8 +39,12 @@
     </div>
 </nav><!-- Fin menu //-->
 <div class="conteneur center">
-    <aside class="texte2 mod right w30 mls pam">
-        
+    <aside class="texte2 mod right w30 mls pas">
+        <h4>DDR Web</h4>
+        <div class="cadre"><img></div>
+        <h4>Find us on Facebook</h4>
+        <div class="fb-like-box" data-href="https://www.facebook.com/artisticads?notif_t=fbpage_fan_invite" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        <h4>Advertisement</h4>
     </aside>
 
     <div role="main" class="texte mod mls pam pts">
