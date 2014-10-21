@@ -41,9 +41,9 @@
 <div class="conteneur center">
     <aside class="texte2 mod right w30 mls pas">
         <h4>DDR Web</h4>
-        <div class="cadre"><img></div>
+        <div class="cadre"><img class="pam" src="composants/badluckfereyv.jpg" alt=""><p class="prs pls pbs">Salut je suis une génie qui fait des blogs et des sites alors voila! Dedicace à duduche pour the tug life photo #badluckfereyv</p></div>
         <h4>Find us on Facebook</h4>
-        <div class="fb-like-box" data-href="https://www.facebook.com/artisticads?notif_t=fbpage_fan_invite" data-width="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        <div class="fb-like-box" data-href="https://www.facebook.com/pages/CSCSE-Comit%C3%A9-de-Soutien-%C3%A0-la-Chevelure-Soyeuse-dEstran_v/265168066968374?fref=ts" data-width="300" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
         <h4>Advertisement</h4>
     </aside>
 
