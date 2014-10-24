@@ -50,18 +50,13 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
     <h2 class="title-h2 mtl ptl"><span>Ouverture</span> d'un dossier chez DDR Web</p></h2>
     <div class="formulaire2 mtl ptl pll">
     <p>*  champs obligatoires</p><br>
-        <form method="post" action="contact.php">
+        <form method="post" action="cible.php">
             <p class="form-style2 mbs pas" >Nom *<span class="marge1"> | <input class="mll pll forml" type="text" name="nom" /></span></p>
-        </form><br>
-        <form method="post" action="contact.php">
             <p class="form-style2 mbs pas">Prénom<span class="marge2"> | <input class="mll pll forml" type="text" name="prenom" /></span></p>
-        </form><br>
-        <form method="post" action="contact.php">
             <p class="form-style2 mbs pas">E-mail *<span class="marge3"> | <input class="mll pll forml" type="email" placeholder="Ex : test@hotmail.fr" name="email" /></span></p>
-        </form><br>
-        <form method="post" action="contact.php">
-            <p class="form-style2 mbs pas">Nom de la société *<span class="marge4"> |<input class="mll pll forml" type="text" name="prenom" /></span></p>
-        </form><br>
+            <p class="form-style2 mbs pas">Nom de la société *<span class="marge4"> |<input class="mll pll forml" type="text" name="soc" /></span></p>
+            <p>Sexe : homme<input type="checkbox" name="homme">femme<input type="checkbox" name="femme">
+            <p><input type="submit" ></p>
     </div>
 </div>
 </body>
