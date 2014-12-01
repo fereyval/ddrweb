@@ -44,7 +44,7 @@ include("include/entete.php");
 ?>
 
 
-<div role="main" class="texte" style="z-index:1; position: relative;">
+<div role="main" class="text" style="z-index:1; position: relative;">
 	<div class="slideshow">
          <div class="slideshow_cadre">
                 <div id="slide" class="slide" >
@@ -81,10 +81,10 @@ include("include/entete.php");
 				<h2 class="title-h2"><span>Pourquoi</span> DDR Web?</h2>
                 <div class=" plm">
 					<p>
-                    DDR Web c'est l'abréviation des mots Développement / Design / Référencement qui correspondent aux phases même de la création d'un site web.
+                    DDR Web c'est l'abrï¿½viation des mots Dï¿½veloppement / Design / Rï¿½fï¿½rencement qui correspondent aux phases mï¿½me de la crï¿½ation d'un site web.
                     </p>
                     <p style="margin-top: 0px;">
-                    Cette sociétée propose différents services en rapport avec la conception de sites internet, que ce soit un simple blog wordpress, un site personnel ou même un E-commerce (simplifié). La chartre graphique, l'intégration et le développement de chaque sites web sont fait par moi. Pour plus d'informations sur les services que je propose, cliquez sur le bouton ci-dessous.
+                    Cette sociï¿½tï¿½e propose diffï¿½rents services en rapport avec la conception de sites internet, que ce soit un simple blog wordpress, un site personnel ou mï¿½me un E-commerce (simplifiï¿½). La chartre graphique, l'intï¿½gration et le dï¿½veloppement de chaque sites web sont fait par moi. Pour plus d'informations sur les services que je propose, cliquez sur le bouton ci-dessous.
                     </p>
                 </div>
 				 <p class="txtcenter mbm left mll mtl"><a style="color:#2ba9d9;" class="bouton1" href="#">Lire la suite</a></p>
@@ -94,10 +94,10 @@ include("include/entete.php");
 				<h2 class="title-h2"><span>Qui</span> suis-je?</h2>
                 <div class="plm">	
                     <p>
-                    Je suis un étudiant de 2ème année à Epitech lyon, une école d'informatique qui propose un cursus d'expert en 5 ans durant lequel vous serez confronté à faire environ 1 an et demi de stage en entreprise.
+                    Je suis un ï¿½tudiant de 2ï¿½me annï¿½e ï¿½ Epitech lyon, une ï¿½cole d'informatique qui propose un cursus d'expert en 5 ans durant lequel vous serez confrontï¿½ ï¿½ faire environ 1 an et demi de stage en entreprise.
                     </p>
                     <p style="margin-top: 0px;">
-                    Je code depuis près de 3 ans et ai appris les bases du Web grâce à l'association Epiweb Lyon et me suis formé durant un stage de 4 mois chez Pixellweb une entreprise également basée sur la conception de sites internet aux Antilles. Pour en savoir plus sur mes compétences, cliquez sur le lien ci-dessous.
+                    Je code depuis prï¿½s de 3 ans et ai appris les bases du Web grï¿½ce ï¿½ l'association Epiweb Lyon et me suis formï¿½ durant un stage de 4 mois chez Pixellweb une entreprise ï¿½galement basï¿½e sur la conception de sites internet aux Antilles. Pour en savoir plus sur mes compï¿½tences, cliquez sur le lien ci-dessous.
                     </p>
                 </div>
 				<p class="txtcenter mbm left mll mtl"><a style="color:#2ba9d9;" class="bouton1" href="test/index.php">Lire la suite</a></p>
@@ -109,14 +109,14 @@ include("include/entete.php");
 				<a href="services.php#simp"><img src="composants/img1.jpg" alt="developpement" class="products"/></a>
 					<div class="left w90">
 					<h3 class="title-h3"><span>Formule Simple</span></h3>
-				<p style="margin-top: 0px;">La formule basique à petits prix et très rapide!</p>
+				<p style="margin-top: 0px;">La formule basique ï¿½ petits prix et trï¿½s rapide!</p>
 				</div>
 			</div>
 			<div class="box5">
 				<a href="services.php#prem"><img src="composants/img2.jpg" alt="developpement" class="products"/></a>
 				<div class="left w90">
 					<h3 class="title-h3"><span>Formule Premium</span></h3>
-					<p style="margin-top: 0px;">La formule all inclusive, pour créer un site à votre image dans un délais imposé.</p>
+					<p style="margin-top: 0px;">La formule all inclusive, pour crï¿½er un site ï¿½ votre image dans un dï¿½lais imposï¿½.</p>
 				</div>
 			</div>
 			<div class="box5">
@@ -129,7 +129,7 @@ include("include/entete.php");
 			
 		</div>
 		<div class="plm mts">
-			<h2 class="pls title-h2 txtcenter" id="rea"><span>Mes dernières</span> réalisations</h2>
+			<h2 class="pls title-h2 txtcenter" id="rea"><span>Mes derniï¿½res</span> rï¿½alisations</h2>
 			<div id="carousel">
 			<div class="carousel-feature">
 				<a href="http://unbijoudexpo.16mb.com/"><img class="carousel-image" alt="Image Caption" src="styles/last/bijoudexpo.jpg"></a>
