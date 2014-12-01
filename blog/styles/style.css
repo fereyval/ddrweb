@@ -30,8 +30,8 @@
 
 a img {border: 0;}
 
-a{color:#00e; text-decoration: none;}
-a:hover{color:#06e;}
+a{color:#000; text-decoration: none;}
+a:hover{color:#f1f1f1;}
 a:focus{outline:thin dotted;}
 a:hover,a:active{outline:0;}
 
@@ -122,7 +122,7 @@ body {
 
 /*---- Texte -------*/
 .texte {
-	min-height: 800px;
+	min-height: 1500px;
 	background-color: #fff;
     padding-top:30px;
     z-index:1;
@@ -327,10 +327,13 @@ img.bordure {
     margin-left:0.2em;
     margin-right:.2em;
 	text-align:left;
+	vertical-align: top;
 }
 
 .box6:last-child {
-	background: url(separation.png) 205px 25px no-repeat
+	background: url(separation.png) 215px 25px no-repeat;
+	padding-right: 10px;
+	width:220px;
 }
 
 .title-h2 {
@@ -393,8 +396,8 @@ img.bordure {
 }
 
 .box1 {
-    width: 650px;
-    min-height: 200px;
+    width: 630px;
+    min-height: 191px;
     padding: 10px;
 }
 
@@ -449,3 +452,67 @@ h4 {
     font-weight: 400;
     line-height: 1.52em;
     }
+	
+.fieldset1 { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 50px;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    background: #f1f1f1;
+}
+
+.fieldset2 { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    background: #FFFFFF;
+}
+
+.comment {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	color: #222;
+	display: inline-block;
+	font-family: arial;
+	font-size: 13px;
+	padding: 5px 2px 2px 5px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.comment2 {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	color: #222;
+	display: inline-block;
+	font-family: arial;
+	font-size: 13px;
+	padding: 5px 2px 2px 5px;
+	vertical-align: top;
+	width: 50%;
+}
+
+.publish {
+	background-color: #4d90f0;
+	border: 1px solid #3079ed;
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
+	padding: 5px 10px;
+	
+}
+
+.publish:hover {
+	background-color: #357ae8;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8));
+	background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+}

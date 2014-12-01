@@ -75,7 +75,7 @@ include("include/entete.php");
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
-                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="étoile" />
                         </span>
                     </li>
@@ -84,7 +84,7 @@ include("include/entete.php");
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
-                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="" />
                         </span>
                     </li>
@@ -97,8 +97,8 @@ include("include/entete.php");
                     <li><img src="styles/logos/3.png" alt="logo" style="margin:10px;"/>Javascript
                         <span class="etoile mtl">
                             <img src="styles/etoileP.png" alt="étoile" />
-                            <img src="styles/etoileM.png" alt="étoile" />
-                            <img src="styles/etoileV.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="" />
                         </span>
@@ -106,9 +106,9 @@ include("include/entete.php");
                     <li><img src="styles/logos/4.png" alt="logo" style="margin:10px;"/>PHP
                         <span class="etoile mtl">
                             <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileM.png" alt="étoile" />
-                            <img src="styles/etoileV.png" alt="étoile" />
-                            <img src="styles/etoileV.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="" />
                         </span>
                     </li>
@@ -116,8 +116,8 @@ include("include/entete.php");
                         <span class="etoile mtl">
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileM.png" alt="étoile" />
-                            <img src="styles/etoileV.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="" />
                         </span>
                     </li>
@@ -150,7 +150,7 @@ include("include/entete.php");
                         <span class="etoile mtl">
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
-                            <img src="styles/etoileV.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="" />
                         </span>
@@ -223,7 +223,7 @@ include("include/entete.php");
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />
-                            <img src="styles/etoileV.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
                             <img src="styles/etoileV.png" alt="étoile" />
                         </span>
                     </li>

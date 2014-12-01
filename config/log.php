@@ -465,3 +465,8 @@
 [25-09-2014 08:29:56] E_NOTICE A session had already been started - ignoring session_start() in : C:\xampp\htdocs\Mywebsite\config\common.php, on line : 69
 [25-09-2014 08:30:02] E_NOTICE A session had already been started - ignoring session_start() in : C:\xampp\htdocs\Mywebsite\config\common.php, on line : 69
 [26-09-2014 08:25:07] E_NOTICE Use of undefined constant NOM_SITE - assumed 'NOM_SITE' in : C:\xampp\htdocs\Mywebsite\include\entete.php, on line : 21
+[23-11-2014 21:08:05] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
+[23-11-2014 21:08:07] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
+[23-11-2014 21:08:11] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
+[23-11-2014 21:08:13] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
+[23-11-2014 21:08:18] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82

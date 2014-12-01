@@ -8,19 +8,20 @@
     <meta name="description" content="<?php echo $description; ?>">
     <link rel="stylesheet" type="text/css" href="styles/knacss.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link href="styles/jquery.bxslider.css" rel="stylesheet" />
+    <link href="styles/jquery.bxslider.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/portfolio.css" type="text/css" media="screen"/>
-	<link rel="stylesheet" href="styles/feature-carousel.css" charset="utf-8" />
-	<script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
-	<link rel="icon" type="jpg" href="composants/favicon.png">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/feature-carousel.css"/>
+    <script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
+    <link rel="icon" type="jpg" href="composants/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+    <link href='styles/lightbox.css' rel='stylesheet' />
     <?php echo $head; ?>
     <title><?php echo $title.' - '.NOM_SITE; ?></title>
 </head>
 <body>
     <header role="banner" class="line ">
     <div class="conteneur center">	
-		<div class="header-logo"><a href="index.php" title="Retour à la page d'accueil" ><img src="composants/logo.png"></a></div>
+		<div class="header-logo"><a href="index.php" title="Retour à la page d'accueil" ><img src="composants/logo.png" /></a></div>
 			
 		<nav role="navigation" class="menu mbs">
 			<ul class="line">

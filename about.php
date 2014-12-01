@@ -37,12 +37,12 @@ include("include/entete.php");
 	<div class="conteneur center">
         <div class="row pts">
             <div class="col w50 pam about-sep">
-                <h2 class="title-h2"><span>P</span>ortfolio</h2>
+                <h2 class="title-h2 pbl"><span>P</span>ortfolio</h2>
                 <img src="composants/portfolio.jpg" alt="faq">
                 <p class="txtright mtm"><a class="bouton" href="portfolio.php">Lire la suite</a></p>
             </div>
             <div class="col w50 pam">
-                <h2 class="title-h2"><span>C</span>ompétences</h2>
+                <h2 class="title-h2 pbl"><span>C</span>ompétences</h2>
                 <img src="composants/competence.jpg" alt="parlons-en">
                 <p class="txtright mtm"><a class="bouton" href="competence.php">Lire la suite</a></p>
             </div>

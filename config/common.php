@@ -76,7 +76,15 @@ $msg = new Messages();
 //require ROOT.'config/classes/common_db.php';
 // Start a transaction
 //$db->start_transaction();
-
+// Connexion à la base de données
+try
+{
+	$bdd = new PDO('mysql:host=localhost;dbname=ddrweb', 'root', '');
+}
+catch(Exception $e)
+{
+        die('Erreur : '.$e->getMessage());
+}
 /******************************************************************
 * REPERTOIRES
 ******************************************************************/

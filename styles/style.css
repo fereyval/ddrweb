@@ -131,6 +131,7 @@ header>div {
 
 .texte3-about {
 	background-color: #fff;
+	min-height: 740px;
 }
 
 .texte3portfolio {
@@ -460,10 +461,13 @@ img.bordure {
     margin-left:0.2em;
     margin-right:.2em;
 	text-align:left;
+	vertical-align: top;
 }
 
 .box6:last-child {
-	background: url(separation.png) 205px 25px no-repeat
+	background: url(separation.png) 215px 25px no-repeat;
+	padding-right: 10px;
+	width:220px;
 }
 
 .accordion {

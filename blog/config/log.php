@@ -465,3 +465,180 @@
 [25-09-2014 08:29:56] E_NOTICE A session had already been started - ignoring session_start() in : C:\xampp\htdocs\Mywebsite\config\common.php, on line : 69
 [25-09-2014 08:30:02] E_NOTICE A session had already been started - ignoring session_start() in : C:\xampp\htdocs\Mywebsite\config\common.php, on line : 69
 [26-09-2014 08:25:07] E_NOTICE Use of undefined constant NOM_SITE - assumed 'NOM_SITE' in : C:\xampp\htdocs\Mywebsite\include\entete.php, on line : 21
+[26-10-2014 19:48:51] E_NOTICE Undefined variable: bdd in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 17
+[26-10-2014 19:49:40] E_NOTICE Undefined variable: bdd in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 17
+[26-10-2014 19:49:41] E_NOTICE Undefined variable: bdd in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 17
+[26-10-2014 19:49:41] E_NOTICE Undefined variable: bdd in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 17
+[26-10-2014 19:49:42] E_NOTICE Undefined variable: bdd in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 17
+[26-10-2014 21:03:45] E_NOTICE Undefined index: date_creation in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 27
+[26-10-2014 21:03:45] E_NOTICE Undefined index: date_creation in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 27
+[26-10-2014 21:03:45] E_NOTICE Undefined index: date_creation in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 27
+[26-10-2014 21:10:19] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[26-10-2014 21:10:19] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[26-10-2014 21:11:19] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[26-10-2014 21:11:19] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[26-10-2014 21:11:29] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[26-10-2014 21:11:29] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[26-10-2014 21:15:11] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[26-10-2014 21:15:11] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[26-10-2014 21:15:22] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[26-10-2014 21:15:22] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[26-10-2014 22:24:51] E_NOTICE Undefined index: url in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[26-10-2014 22:24:51] E_NOTICE Undefined index: url in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[26-10-2014 22:24:51] E_NOTICE Undefined index: url in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:15:37] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:15:37] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:15:37] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:16:15] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 09:16:15] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 09:16:32] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:16:32] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:16:32] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:18:52] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:18:52] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:18:52] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:18:56] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:18:56] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:18:56] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:21] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:21] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:21] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:24] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:24] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:24] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:50] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:50] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:50] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:52] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:52] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:19:52] E_NOTICE Undefined index: image in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 24
+[27-10-2014 09:37:44] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 09:37:44] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 09:49:42] E_NOTICE Undefined variable: dsn in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 09:49:42] E_NOTICE Undefined variable: user in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 09:49:42] E_NOTICE Undefined variable: password in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:04] E_NOTICE Undefined variable: dsn in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:04] E_NOTICE Undefined variable: user in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:04] E_NOTICE Undefined variable: password in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:04] E_NOTICE Undefined variable: dsn in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:04] E_NOTICE Undefined variable: user in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:04] E_NOTICE Undefined variable: password in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:05] E_NOTICE Undefined variable: dsn in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:05] E_NOTICE Undefined variable: user in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:05] E_NOTICE Undefined variable: password in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:05] E_NOTICE Undefined variable: dsn in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:05] E_NOTICE Undefined variable: user in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:05] E_NOTICE Undefined variable: password in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 16
+[27-10-2014 14:27:26] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:27:26] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:47:29] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:47:29] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:49:31] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:49:31] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:49:37] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:49:37] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:50:09] E_NOTICE Undefined index: index in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:50:09] E_NOTICE Undefined index: index in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:50:34] E_NOTICE Undefined index: index in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:50:34] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:50:36] E_NOTICE Undefined index: index in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:50:36] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:52:20] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 18
+[27-10-2014 14:52:20] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 42
+[27-10-2014 14:53:51] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 18
+[27-10-2014 14:53:51] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 42
+[27-10-2014 14:54:14] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 41
+[27-10-2014 14:54:15] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 41
+[27-10-2014 14:57:32] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:57:32] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 14:58:08] E_NOTICE Undefined index: billets in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 14:58:08] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 15:00:13] E_NOTICE Undefined index: billets in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 15:00:13] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 15:01:41] E_NOTICE Undefined index: billets in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 15:01:41] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 15:04:25] E_NOTICE Undefined index: billets in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 15:04:25] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 15:04:37] E_NOTICE Undefined index: billets in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 15:04:37] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 15:04:56] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[27-10-2014 15:04:56] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[27-10-2014 15:07:00] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 43
+[28-10-2014 08:25:15] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:25:17] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:25:28] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:25:31] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:25:34] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:25:45] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:25:55] E_NOTICE Undefined index: id in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 08:29:14] E_NOTICE Undefined index: id_billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[28-10-2014 09:35:23] E_NOTICE Undefined index: date_creation in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 23
+[28-10-2014 10:43:06] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[28-10-2014 10:43:06] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[28-10-2014 10:50:59] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[28-10-2014 10:50:59] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[28-10-2014 10:51:00] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[28-10-2014 10:51:00] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[28-10-2014 10:51:03] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[28-10-2014 10:51:03] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[28-10-2014 15:39:31] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[28-10-2014 15:39:31] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 08:23:40] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 08:23:40] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 09:56:37] E_NOTICE Undefined variable: billet in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 32
+[29-10-2014 09:56:37] E_NOTICE Undefined variable: billet in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 32
+[29-10-2014 09:56:37] E_NOTICE Undefined variable: billet in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 32
+[29-10-2014 09:56:43] E_NOTICE Undefined variable: billet in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 32
+[29-10-2014 09:56:43] E_NOTICE Undefined variable: billet in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 32
+[29-10-2014 09:56:43] E_NOTICE Undefined variable: billet in : C:\xampp\htdocs\sites\ddrweb\blog\index.php, on line : 32
+[29-10-2014 10:10:56] E_NOTICE Undefined variable: donnees in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 33
+[29-10-2014 11:00:45] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 11:00:45] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 11:03:33] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 11:03:33] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 11:03:45] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 11:03:45] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 11:04:03] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 11:04:03] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 11:04:17] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 11:04:17] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 45
+[29-10-2014 11:04:17] E_DEPRECATED mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 90
+[29-10-2014 11:12:39] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 11:12:39] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 59
+[29-10-2014 11:12:59] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:12:59] E_NOTICE Undefined index: form in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 50
+[29-10-2014 11:14:14] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:14:14] E_NOTICE Undefined index: test in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 50
+[29-10-2014 11:14:21] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:14:21] E_NOTICE Undefined index: test in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 50
+[29-10-2014 11:15:11] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:15:18] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:16:48] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:17:03] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:17:40] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:18:33] E_NOTICE Undefined index: contenu in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:23:33] E_NOTICE Undefined index: commentaire in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 47
+[29-10-2014 11:32:12] E_NOTICE Undefined index: id_billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[29-10-2014 11:32:39] E_NOTICE Undefined index: id_billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 48
+[29-10-2014 13:03:44] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 19
+[29-10-2014 13:03:44] E_NOTICE Undefined index: billet in : C:\xampp\htdocs\sites\ddrweb\blog\commentaires.php, on line : 60
+[29-10-2014 19:26:12] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 19:28:12] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 19:28:12] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 19:28:18] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 19:29:33] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 19:32:26] E_WARNING PDO::__construct(): MySQL server has gone away in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 19:32:26] E_WARNING PDO::__construct(): Error while reading greeting packet. PID=2060 in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:38] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:44] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:57] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:57] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:58] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:58] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:58] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:39:59] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:40:00] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:40:01] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:40:01] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:40:02] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82
+[29-10-2014 20:40:04] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\blog\config\common.php, on line : 82

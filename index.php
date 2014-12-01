@@ -48,7 +48,7 @@ include("include/entete.php");
 	<div class="slideshow">
          <div class="slideshow_cadre">
                 <div id="slide" class="slide" >
-					<img src="composants/slider-1.jpg"  width="1080" height="478"  style="z-index:-1"/> 
+					<img src="composants/slider-1.jpg"  width="1080" height="478"  style="z-index:-1" /> 
 					<img src="composants/slider-2.jpg"  width="1080" height="478" />
 					<img src="composants/slider-4.jpg"  width="1080" height="478" />
                 </div>
@@ -78,7 +78,7 @@ include("include/entete.php");
 		<div class="row pts pll">
 			<div class="col w50 ptm prm">
 				<img src="styles/pourquoi.png" class="left" style="margin-top: 20px; margin-bottom: 0px;">
-				<h2 class="title-h2"><img><span>Pourquoi</span> DDR Web?<img></h2>
+				<h2 class="title-h2"><span>Pourquoi</span> DDR Web?</h2>
                 <div class=" plm">
 					<p>
                     DDR Web c'est l'abréviation des mots Développement / Design / Référencement qui correspondent aux phases même de la création d'un site web.
@@ -91,7 +91,7 @@ include("include/entete.php");
 			</div>
 			<div class="col w50 ptm">
 			<img src="styles/qui.png" class="left" style="margin-top: 20px; margin-bottom: 0px;">
-				<h2 class="title-h2"><img><span>Qui</span> suis-je?<img></h2>
+				<h2 class="title-h2"><span>Qui</span> suis-je?</h2>
                 <div class="plm">	
                     <p>
                     Je suis un étudiant de 2ème année à Epitech lyon, une école d'informatique qui propose un cursus d'expert en 5 ans durant lequel vous serez confronté à faire environ 1 an et demi de stage en entreprise.
@@ -100,7 +100,7 @@ include("include/entete.php");
                     Je code depuis près de 3 ans et ai appris les bases du Web grâce à l'association Epiweb Lyon et me suis formé durant un stage de 4 mois chez Pixellweb une entreprise également basée sur la conception de sites internet aux Antilles. Pour en savoir plus sur mes compétences, cliquez sur le lien ci-dessous.
                     </p>
                 </div>
-				<p class="txtcenter mbm left mll pll mtl ptm"><a style="color:#2ba9d9;" class="bouton1" href="#">Lire la suite</a></p>
+				<p class="txtcenter mbm left mll mtl"><a style="color:#2ba9d9;" class="bouton1" href="test/index.php">Lire la suite</a></p>
 			</div>
 		</div>
 		<div class="pll ptm pbm">

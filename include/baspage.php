@@ -1,26 +1,23 @@
 <footer role="contentinfo" class="footer line txtcenter">
-	<p class="txtcenter left"><a style="color:#2ba9d9;" class="boutonfoot" href="blog.php">BLOG</a></p>
-	<div class="conteneur center">
+	<p class="txtcenter left"><a style="color:#2ba9d9;" class="boutonfoot" href="blog/index.php">BLOG</a></p>
+	<div class="conteneur center" style="background:transparent !important;">
 		<div class="row">
 			<div class="col left w100">
+				<?php
+				$req = $bdd->query('SELECT id, titre, intro, image, auteur, DATE_FORMAT(date_creation, \'%d\') AS date_creation_fr FROM billets ORDER BY date_creation_fr DESC LIMIT 0, 3');
+				while ($donnees = $req->fetch())
+				{
+				?>
 				<div class="box6">
 					<div >
-						<div class="date"><strong>05</strong><span>October, 2014</span></div>
-						<p><a href="#" class="link">Lorem ipsum</a><br>Sadipscing elitriam nonumy eirmod nonumy eirmod tempor invidunt labore.</p>
+						<div class="date"><strong><?php echo $donnees['date_creation_fr']; ?></strong><span>October, 2014</span></div>
+						<p><a class="link" href="blog/commentaires.php?billet=<?php echo $donnees['id']; ?>"><?php echo htmlspecialchars($donnees['titre']); ?></a><br><?php echo $donnees['intro'];?></p>
 					</div>
 				</div>
-				<div class="box6">
-					<div>
-						<div class="date"><strong>06</strong><span>October, 2014</span></div>
-						<p><a href="#" class="link">Lorem ipsum</a><br>Sadipscing elitriam nonumy eirmod nonumy eirmod tempor invidunt labore.</p>
-					</div>
-				</div>
-				<div class="box6">
-					<div >
-						<div class="date"><strong>15</strong><span>november, 2014</span></div>
-						<p><a href="#" class="link">Lorem ipsum</a><br>Sadipscing elitriam nonumy eirmod nonumy eirmod tempor invidunt labore.</p>
-					</div>
-				</div>
+				<?php
+				}
+				$req->closeCursor();
+				?>
 			</div>
 			<div class="col w30" style="padding-top:50px;">
 				<h3 class="title-h3"><span>CONTACT : </span>06 15 59 67 98</h3>
@@ -28,7 +25,7 @@
 			</div>
 		</div>
 	</div>
-	<p class="txtcenter right"><a style="color:#2ba9d9;" class="boutonfoot2" href="contact.php">CONTACT</a></p>
+	<p class="txtcenter right"><a style="color:#2ba9d9;" class="boutonfoot2" href="../contact.php">CONTACT</a></p>
 </footer>
 <div class="social-barre">
         <ul>
@@ -37,10 +34,10 @@
             <li><a href="https://www.github.com/firely23"><img src="composants/linkedin.png" alt="Google +"></a></li>
         </ul>
 </div>
-
 <script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
 <script src="javascripts/filterable.pack.js" type="text/javascript" charset="utf-8"></script>
 <script src="javascripts/jquery.b1njAccordion.js"></script>
+<script src="javascripts/jquery.slickhover.js" type="text/javascript"></script>
  <script type="text/javascript">
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-34001528-16']);
