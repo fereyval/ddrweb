@@ -44,7 +44,7 @@ include("include/entete.php");
 ?>
 
 
-<div role="main" class="text" style="z-index:1; position: relative;">
+<div role="main" class="texte" style="z-index:1; position: relative;">
 	<div class="slideshow">
          <div class="slideshow_cadre">
                 <div id="slide" class="slide" >
