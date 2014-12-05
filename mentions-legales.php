@@ -42,14 +42,13 @@ Ce site est &eacute;dit&eacute; par <?php echo SOC_NOM ?><br />
 <p><strong>R&eacute;alisation, R&eacute;f&eacute;rencement
 et h&eacute;bergement du site :</strong></p>
 
-<p>Soci&eacute;t&eacute; Pixell<br />
-B&acirc;timent Frigodom - Niveau 1<br />
-Z.I.P. de la Pointe des Grives<br />
-97200 Fort-de-France<br />
-T&eacute;l. 05 96 75 14 20<br />
-Fax 05 96 75 67 36</p>
+<p>DDRWEB Lyon<br />
+53 Rue de pré mayeu<br />
+01120 La Boisse<br />
+T&eacute;l. 06 15 59 67 98<br />
+</p>
 
-<p><a href="http://www.pixellweb.com">http://www.pixellweb.com</a></p>
+<p><a href="http://www.ddrweb.com">http://www.ddrweb.com</a></p>
 
 
 <p><strong>Déclaration du site à la CNIL</strong></p>

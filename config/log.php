@@ -470,3 +470,21 @@
 [23-11-2014 21:08:11] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
 [23-11-2014 21:08:13] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
 [23-11-2014 21:08:18] E_WARNING PDO::__construct():  in : C:\xampp\htdocs\sites\ddrweb\config\common.php, on line : 82
+[01-12-2014 20:06:37] E_NOTICE Undefined index: situation in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 41
+[01-12-2014 20:06:37] E_NOTICE Undefined index: residence in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 42
+[01-12-2014 20:06:37] E_NOTICE Undefined variable: message in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 51
+[01-12-2014 20:07:45] E_NOTICE Undefined variable: message in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 49
+[01-12-2014 20:13:49] E_NOTICE Undefined variable: message in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 49
+[02-12-2014 08:15:50] E_NOTICE Undefined variable: message in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 49
+[02-12-2014 10:49:16] E_NOTICE Undefined index: civilite in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 39
+[02-12-2014 10:49:16] E_NOTICE Undefined variable: message in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 59
+[02-12-2014 10:59:38] E_NOTICE Undefined index: myname in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 107
+[02-12-2014 10:59:38] E_NOTICE Undefined index: firstname in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 111
+[02-12-2014 10:59:38] E_NOTICE Undefined index: mymail in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 139
+[02-12-2014 10:59:40] E_NOTICE Undefined index: myname in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 107
+[02-12-2014 10:59:40] E_NOTICE Undefined index: firstname in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 111
+[02-12-2014 10:59:40] E_NOTICE Undefined index: mymail in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 139
+[02-12-2014 11:02:03] E_NOTICE Undefined index: myname in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 107
+[02-12-2014 11:02:03] E_NOTICE Undefined index: firstname in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 111
+[02-12-2014 11:02:03] E_NOTICE Undefined index: mymail in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 140
+[04-12-2014 13:44:03] E_NOTICE Undefined index: civilite in : C:\xampp\htdocs\sites\ddrweb\conditions.php, on line : 38

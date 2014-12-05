@@ -166,16 +166,12 @@ include("include/entete.php");
             <img src="styles/button.png" class="pad2"/>
 			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
 			<div class="formulaire1">
-				<form method="post" action="contact.php">
-					<p class="form-style" >Nom : <input type="text" name="nom" /></p>
-				</form><br>
-				<form method="post" action="contact.php">
-					<p class="form-style">Prénom : <input type="text" name="prenom" /></p>
-				</form><br>
-				<form method="post" action="contact.php">
-					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="email" /></p>
-				</form><br>
-				<a href="conditions.php"><input type="submit" value="Continuer" /></a>
+				<form method="post" action="conditions.php">
+					<p class="form-style" >Nom : <input type="text" name="myname" /></p><br>
+					<p class="form-style">Prénom : <input type="text" name="firstname" /></p><br>
+					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="mymail" /></p><Br>
+				<a><input type="submit" value="Continuer" /></a>
+				</form>
 			</div>
 		</div>
 	</div>

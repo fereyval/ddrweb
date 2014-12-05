@@ -276,7 +276,7 @@ img.bordure {
 }
 
 .titre-principal ul {
-    position: fixed;
+	padding-left: 0px !important;
     display: inline-block;
     list-style-type: none;
     margin-top: 20px;

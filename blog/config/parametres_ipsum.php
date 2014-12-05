@@ -14,8 +14,8 @@ else
     define ("URL" , "http://www.nomdedomaine.com/" ) ;
 
 // Destinataire des erreurs php
-define ("MAIL_ADMINISTRATEUR", 'erreurphp@pixellweb.com');  // Ne pas modifier
-define ("MAIL_TEST", 'test@pixellweb.com'); // Ne rien mettre quand tests terminés.
+define ("MAIL_ADMINISTRATEUR", 'valentin.ferey@epitech.eu');  // Ne pas modifier
+define ("MAIL_TEST", 'valentin.ferey@epitech.eu'); // Ne rien mettre quand tests terminés.
 define ("MAIL_OBJET", "Contact site Internet ".NOM_SITE);
 define ("MAIL_REPLY", '');
 
@@ -37,7 +37,7 @@ define ("QTE_MAX" , 10 ) ;    // Qte max pour achat de produit
 //define ("APAYER_MAX" , 10000 ) ; // Montant en ¤ à payer maximum
 define ("SOC_ORDRE" , 'xxxxxx' ) ;    // Ordre du chéque
 define ("RIB" , 'xxxxxx' ) ;    // IBAN + RIB
-define ("MAIL_CMD_PIXELL", 'ebusiness@pixellweb.com'); // Destinataire des mails des commandes PIXELL
+define ("MAIL_CMD_PIXELL", 'ebusiness@ddrweb.com'); // Destinataire des mails des commandes
 define ("IS_LIVRAISON_PLACE" , true ) ;    // Livraison sur place disponible
 define ("BOUTIQUE_PAYS" , 112 ) ;    // Pays de la boutique
 

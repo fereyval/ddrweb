@@ -115,7 +115,7 @@ header>div {
 }
 
 .texte {
-	max-height: 497px;
+	max-height: 697px;
 	background-color: #ffffff;
 }
 
@@ -908,4 +908,14 @@ border-radius: 10px;
     
 .about-sep {
     background: url(separation2.png) right 80px no-repeat;
+}
+
+
+.myform {
+
+}
+
+.myform fieldset{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }

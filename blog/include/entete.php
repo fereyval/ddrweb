@@ -16,11 +16,11 @@
         <div class="titre-principal">
             <h1>WELCOME ON<br> MY BLOG</h1>
             <p>This Awesome Blogger Template is Brought To You By Bthemez, Let's be friends<br> and spread the love together in the world. #nohomo :P<br>Join us on</p>
-            <ul>
-                <li><a href="https://www.facebook.com"><img src="composants/facebook.png" alt="Facebook"></a></li>
+            <ul class="w100 txtcenter">
+                <li><a href="https://www.facebook.com/ddrweblyon"><img src="composants/facebook.png" alt="Facebook"></a></li>
                 <li><a href="https://twitter.com"><img src="composants/twitter.png" alt="Twitter"></a></li>
                 <li><a href="https://www.github.com/firely23"><img src="composants/linkedin.png" alt="github"></a></li>
-                <li><a href="https://www.github.com/firely23"><img src="composants/google.png" alt="Google +"></a></li>
+                <li><a href="https://www.plus.google.com"><img src="composants/google.png" alt="Google +"></a></li>
             </ul>
         </div>
     </div>
@@ -45,6 +45,7 @@
         <h4>Find us on Facebook</h4>
         <div class="fb-like-box" data-href="https://www.facebook.com/ddrweblyon" data-width="300" data-height="400" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
         <h4>Advertisement</h4>
+		<img src="composants/pub.jpg" alt="">
     </aside>
 
     <div role="main" class="texte mod mls pam pts">

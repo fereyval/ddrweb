@@ -65,7 +65,7 @@ include("include/entete.php");
     <div class="conteneur center plm">
         <h2 class="title-h2 txtcenter" id="simp"><span>Formule</span> Simple</h2>
         <p>
-            Dans cette formule vous avez les choix avec 3 maquettes graphiques de sites internets déjà pré concus. Vous n'avez qu'à fournir les photos, le texte et le thème désiré pour que votre site internet soit prêt en un rien de temps et à prix mini! Vous avez donc les choix entre ces 3 modèles ci-dessous:</p>
+            Dans cette formule vous avez le choix avec 3 maquettes graphiques de sites internet déjà pré concus. Vous n'avez qu'à fournir les photos, le texte et le thème désiré pour que votre site internet soit prêt en un rien de temps et à prix mini! Vous avez donc les choix entre ces 3 modèles ci-dessous:</p>
         </p>
         <div class="row pts">
             <div class="col w33 pam">
@@ -80,7 +80,7 @@ include("include/entete.php");
             </div>
         </div>
         <h2 class="title-h2 txtcenter" id="prem"><span>Formule</span> Premium</h2>
-        <p>Cette formule est une formule All inclusive elle comprend toute les étapes necessaires à la création d'un site à votre image.<p>
+        <p>Cette formule est une formule All inclusive elle comprend toutes les étapes necessaires à la création d'un site à votre image.<p>
         <p>En souscrivant à cette formule vous aurez droit à :</p>
         <ul class="avant">
             <li>Frais de dossier</li>

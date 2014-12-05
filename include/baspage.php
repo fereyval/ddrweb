@@ -29,7 +29,7 @@
 </footer>
 <div class="social-barre">
         <ul>
-            <li><a href="https://www.facebook.com"><img src="composants/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.facebook.com/ddrweb"><img src="composants/facebook.png" alt="Facebook"></a></li>
             <li><a href="https://twitter.com"><img src="composants/twitter.png" alt="Twitter"></a></li>
             <li><a href="https://www.github.com/firely23"><img src="composants/linkedin.png" alt="Google +"></a></li>
         </ul>
